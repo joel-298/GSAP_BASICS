@@ -1,0 +1,92 @@
+#box1, #box2 , #box3{
+    height: 200px;
+    width: 200px;
+}
+body{
+    background-color: rgb(43, 43, 43);
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow-x: hidden;
+}
+#nav{
+    background-color: rgb(59, 61, 61);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+#part2{
+    display: flex;
+    gap: 30px;
+}
+h1{
+    /* background-color: blue; */
+    font-size: 100px;
+    width: 450px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+}
+/* SCROLL TRIGGERS  */
+.page1,.page2,.page3,.page4,.page5{
+    height: 45rem; 
+    width: 95%; 
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page1 {
+    background-color: antiquewhite;
+}
+.page2 {
+    background-color: rgba(128, 96, 56, 0.737);
+}
+.page3 {
+    background-color: antiquewhite;
+}
+.page4 {
+    background-color: rgb(62, 52, 45);
+}
+.page5 {
+    background-color: rgb(122, 112, 105);
+}
+.box{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(70, 70, 75);
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px -20px black;
+    border: 10px solid white;
+}
+.page3 .box { 
+    height: 90%;
+    width: 90%;
+}
+.page2 .box {
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 10px;
+    margin: 0px;
+}
+.page2 .box .h1{ 
+    font-size: 50px;
+    margin: 0px;
+    /* background-color: blue; */
+    width: auto;
+}
+.page4 .h1 {
+    /* background-color: red; */
+    font-size: 500px;
+    margin: auto;
+}

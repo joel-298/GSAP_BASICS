@@ -1,0 +1,13 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(44, 44, 44);
+    
+}
+.string {
+    background-color: rgb(162, 49, 49);
+    height : 200px ;
+    width : 400px ;
+    border-radius: 20px;
+    margin: 0.5% 2%;
+}

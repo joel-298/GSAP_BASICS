@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(41, 41, 41);
+    height: 100%;
+    width:100% ; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+h1{
+    font-size: 100px;
+    /* background-color: red; */
+    height: auto;
+    padding: auto;
+    overflow: hidden;
+}
+span {
+    display: inline-block;
+    white-space: pre; 
+    /* // to make sure space inside the span elements are rendered propeerly */
+}

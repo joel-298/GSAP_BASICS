@@ -1,0 +1,3 @@
+Some more extra properties of css related to Gsap 
+    // backgroundColor: "rgb(10, 180, 101)",
+    // borderRadius:"100%"

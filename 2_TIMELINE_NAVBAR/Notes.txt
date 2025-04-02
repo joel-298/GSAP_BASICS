@@ -1,0 +1,3 @@
+Summary : 
+    Read about running animations one by one dependent on each other
+    variable = gsap.timeline() ; 

@@ -1,0 +1,10 @@
+// SUMMARY : 
+//     TOPICS LIKE SCROLL TRIGGERS COVRERED : 
+//         -> scrollTrigger : {}
+//         -> trigger:".page2 .box",
+//         -> scroller:"body",
+//         -> markers : true , 
+//         -> start:"top 90%",
+//         -> end:"top 10%"
+//         -> scrub : 1 // represents time or we can also write true
+//         -> pin : true , // will not scroll to next page untill and unless the current animation is completed

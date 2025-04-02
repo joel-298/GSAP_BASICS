@@ -1,0 +1,12 @@
+SUMMARY : TOPICS COVERED : 
+    EventListeners 
+    mouseenter
+    mouseleave
+    mousemove
+    dets 
+    path M xaxis(start) yaxis(start) Q(quadratic) xaxis(mid) yaxis(mid) xaxis(end) yaxis(end)
+    
+    path = `M 0 100 Q ${dets.x} ${dets.y} 4
+    gsap.to("svg path", { // for changing the attribute
+    attr : {d:path},
+    ease : property is used to make the animation smooth
