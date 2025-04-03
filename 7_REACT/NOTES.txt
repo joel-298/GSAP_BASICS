@@ -1,0 +1,10 @@
+      gsap.killTweensOf(box.current);       // Kill any existing animations to reset
+      gsap.set(box.current, { x: 0 });      // Reset position to the starting point
+
+      contextSafe : WHEN TO USE : ? 
+                        use them on onClik animations ..... 
+
+
+      else just use normal useGSAP(
+            // and write all the gsap animations 
+      )
